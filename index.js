@@ -74,11 +74,12 @@
 // const afterExercise = morningRoutine(liftWeights);
 
 // afterExercise();
-function receivesAFunction(spy) {
-  spy();
+function receivesAFunction(cb) {
+  cb();
 }
+
 function returnsANamedFunction() {
-  return function thing() {};
+  return function smooth() {};
 }
 
 function returnsAnAnonymousFunction() {
